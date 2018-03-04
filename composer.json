@@ -1,0 +1,47 @@
+{
+    "name": "barrelstrength/sprout-reports-users",
+    "description": "A collection of User-related Data Sources for Sprout Reports.",
+    "version": "1.0.0",
+    "type": "craft-plugin",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "reports",
+        "sprout reports"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Barrel Strength",
+            "homepage": "https://barrelstrengthdesign.com"
+        }
+    ],
+    "support": {
+        "email": "sprout@barrelstrengthdesign.com",
+        "issues": "https://github.com/barrelstrength/sprout-reports-users/issues?state=open",
+        "source": "https://github.com/barrelstrength/sprout-reports-users",
+        "docs": "https://sprout.barrelstrengthdesign.com/craft-plugins/reports/docs",
+        "rss": "https://github.com/barrelstrength/sprout-reports-users/commits/v2.atom"
+    },
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "barrelstrength/sprout-reports": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "barrelstrength\\sproutreportsusers\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Sprout Reports - Users",
+        "handle": "sprout-reports-users",
+        "schemaVersion": "1.0.0",
+        "developer": "Barrel Strength",
+        "developerUrl": "https://barrelstrengthdesign.com",
+        "documentationUrl": "https://sprout.barrelstrengthdesign.com/craft-plugins/reports",
+        "changelogUrl": "https://raw.githubusercontent.com/BarrelStrength/sprout-reports-users/master/CHANGELOG.md",
+        "downloadUrl": "https://github.com/BarrelStrength/sprout-reports-users/archive/master.zip",
+        "class": "barrelstrength\\sproutreportsusers\\SproutReportsUsers"
+    }
+}

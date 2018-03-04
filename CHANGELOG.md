@@ -1,0 +1,2 @@
+# Sprout Reports Users Changelog
+
