@@ -28,7 +28,7 @@ class SproutReportsUsers extends Plugin
             $isCraftPro = (Craft::$app->getEdition() == Craft::Pro);
 
             if ($isCraftPro == true) {
-                $event->types[] = new Users();
+                $event->types[] = Users::class;
             }
 
         });
