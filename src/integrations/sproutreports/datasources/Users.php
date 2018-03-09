@@ -38,8 +38,8 @@ class Users extends BaseDataSource
             $settings = $report->getSettings();
         }
 
-        $userGroupIds = $settings->userGroups ?? false;
-        $displayUserGroupColumns = $settings->displayUserGroupColumns ?? false;
+        $userGroupIds = $settings['userGroups'] ?: false;
+        $displayUserGroupColumns = $settings['displayUserGroupColumns'] ?: false;
 
         $includeAdmins = false;
 
@@ -70,8 +70,8 @@ class Users extends BaseDataSource
         $query = new Query();
         $userQuery = $query
             ->select($selectQueryString)
-            ->from('users')
-            ->join('LEFT JOIN', 'usergroups_users', 'users.id = usergroups_users.userId');
+            ->from('{{%users}} users')
+            ->join('LEFT JOIN', '{{%usergroups_users}} usergroups_users', 'users.id = usergroups_users.userId');
 
         if (is_array($userGroupIds)) {
             $userQuery->where(['in', 'usergroups_users.groupId', $userGroupIds]);
@@ -96,8 +96,8 @@ class Users extends BaseDataSource
         $query = new Query();
         $userGroupsMapQuery = $query
             ->select('*')
-            ->from('usergroups_users')
-            ->join('LEFT JOIN', 'usergroups', 'usergroups.id = usergroups_users.groupId')
+            ->from('{{%usergroups_users}} usergroups_users')
+            ->join('LEFT JOIN', '{{%usergroups}} usergroups', 'usergroups.id = usergroups_users.groupId')
             ->all();
 
         // Create a map of all users and which user groups they are in
