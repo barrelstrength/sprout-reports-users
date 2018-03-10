@@ -83,7 +83,7 @@ class Users extends BaseDataSource
 
         $userQuery->groupBy('users.id');
 
-        // @todo - can we query users and user their ids as the array key?
+        // @todo - can we get users indexed by ID and simplify this?
         $users = $userQuery->all();
 
         // Update users to be indexed by their ids
