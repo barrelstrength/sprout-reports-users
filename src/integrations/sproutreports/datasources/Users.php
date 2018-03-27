@@ -3,6 +3,7 @@
 namespace barrelstrength\sproutreportsusers\integrations\sproutreports\datasources;
 
 use barrelstrength\sproutbase\contracts\sproutreports\BaseDataSource;
+use barrelstrength\sproutreports\elements\Report;
 use Craft;
 use barrelstrength\sproutbase\models\sproutreports\Report as ReportModel;
 use craft\db\Query;
@@ -31,7 +32,7 @@ class Users extends BaseDataSource
      *
      * @return array
      */
-    public function getResults(ReportModel $report, array $settings = [])
+    public function getResults(Report $report, array $settings = [])
     {
         // First, use dynamic options, fallback to report options
         if (!count($settings)) {
