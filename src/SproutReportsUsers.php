@@ -10,7 +10,7 @@
 
 namespace barrelstrength\sproutreportsusers;
 
-use barrelstrength\sproutbase\services\sproutreports\DataSources;
+use barrelstrength\sproutbase\sproutreports\services\DataSources;
 use barrelstrength\sproutreportsusers\integrations\sproutreports\datasources\Users;
 use craft\base\Plugin;
 use yii\base\Event;

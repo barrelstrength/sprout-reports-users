@@ -2,10 +2,9 @@
 
 namespace barrelstrength\sproutreportsusers\integrations\sproutreports\datasources;
 
-use barrelstrength\sproutbase\contracts\sproutreports\BaseDataSource;
-use barrelstrength\sproutbase\elements\sproutreports\Report;
+use barrelstrength\sproutbase\sproutreports\contracts\BaseDataSource;
+use barrelstrength\sproutbase\sproutreports\elements\Report;
 use Craft;
-use barrelstrength\sproutbase\models\sproutreports\Report as ReportModel;
 use craft\db\Query;
 
 class Users extends BaseDataSource
