@@ -2,12 +2,12 @@
 
 namespace barrelstrength\sproutreportsusers\integrations\sproutreports\datasources;
 
-use barrelstrength\sproutbase\sproutreports\contracts\BaseDataSource;
-use barrelstrength\sproutbase\sproutreports\elements\Report;
+use barrelstrength\sproutbase\app\reports\base\DataSource;
+use barrelstrength\sproutbase\app\reports\elements\Report;
 use Craft;
 use craft\db\Query;
 
-class Users extends BaseDataSource
+class Users extends DataSource
 {
     /**
      * @return string
@@ -150,7 +150,7 @@ class Users extends BaseDataSource
         $settingsErrors = $this->report->getErrors('settings');
         $settingsErrors = array_shift($settingsErrors);
 
-        return Craft::$app->getView()->renderTemplate('sprout-reports-users/datasources/_settings/users', [
+        return Craft::$app->getView()->renderTemplate('sprout-reports-users/_integrations/sproutreports/datasources/Users/settings', [
             'userGroupSettings' => $userGroupSettings,
             'settings' => count($settings) ? $settings : $this->report->getSettings(),
             'errors' => $settingsErrors
