@@ -19,6 +19,11 @@ use Craft;
 
 class SproutReportsUsers extends Plugin
 {
+    /**
+     * @var string
+     */
+    public $schemaVersion = '1.0.0';
+
     public function init()
     {
         parent::init();
