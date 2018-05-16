@@ -2,6 +2,8 @@
 
 ## 1.0.2- 2018-05-15
 
+{warning} If you have more than one Sprout Plugin installed, to avoid errors use the 'Update All' option.
+
 ### Changed
 - Updated Reports to use Report Element
 - Updated application folder structure
