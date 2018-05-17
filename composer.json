@@ -1,7 +1,7 @@
 {
     "name": "barrelstrength/sprout-reports-users",
     "description": "A collection of User-related Data Sources for Sprout Reports",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "craft-plugin",
     "keywords": [
         "craft",

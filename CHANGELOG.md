@@ -1,8 +1,13 @@
 # Sprout Reports - Users Changelog
 
-## 1.0.2- 2018-05-15
+## 1.0.4 - 2018-05-17
 
-{warning} If you have more than one Sprout Plugin installed, to avoid errors use the 'Update All' option.
+### Fixed
+- Fixes release notes warning syntax
+
+## 1.0.3- 2018-05-15
+
+> {warning} If you have more than one Sprout Plugin installed, to avoid errors use the 'Update All' option.
 
 ### Changed
 - Updated Reports to use Report Element
