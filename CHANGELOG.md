@@ -1,4 +1,10 @@
-# Sprout Reports - Users Changelog
+# Users Data Source for Sprout Reports Changelog
+
+## 1.0.5 - 2018-05-18
+
+### Changed
+- Updates plugin naming convention
+- Updates to icon used for Sprout integrations
 
 ## 1.0.4 - 2018-05-17
 
