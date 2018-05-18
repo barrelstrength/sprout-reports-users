@@ -1,4 +1,4 @@
-# Sprout Reports - Users
+# Users Data Source for Sprout Reports
 
 A collection of User-related Data Sources for Sprout Reports.
 
