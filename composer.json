@@ -1,7 +1,7 @@
 {
     "name": "barrelstrength/sprout-reports-users",
     "description": "A collection of User-related Data Sources for Sprout Reports",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "type": "craft-plugin",
     "keywords": [
         "craft",
@@ -26,7 +26,7 @@
     },
     "require": {
         "craftcms/cms": "^3.0.0",
-        "barrelstrength/sprout-reports": "^1.0.0-beta.8"
+        "barrelstrength/sprout-reports": "^1.0.0-beta.12"
     },
     "autoload": {
         "psr-4": {

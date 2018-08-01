@@ -1,5 +1,10 @@
 # Users Data Source for Sprout Reports Changelog
 
+## 1.0.6 - 2018-08-01
+
+## Changed
+- Updated Sprout Reports requirement to v1.0.0-beta.12
+
 ## 1.0.5 - 2018-05-18
 
 ### Changed
