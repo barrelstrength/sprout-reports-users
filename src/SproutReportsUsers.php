@@ -10,7 +10,7 @@
 
 namespace barrelstrength\sproutreportsusers;
 
-use barrelstrength\sproutbase\app\reports\services\DataSources;
+use barrelstrength\sproutbasereports\services\DataSources;
 use barrelstrength\sproutreportsusers\integrations\sproutreports\datasources\Users;
 use craft\base\Plugin;
 use yii\base\Event;
@@ -22,7 +22,7 @@ class SproutReportsUsers extends Plugin
     /**
      * @var string
      */
-    public $schemaVersion = '1.0.0';
+    public $schemaVersion = '1.0.1';
 
     public function init()
     {

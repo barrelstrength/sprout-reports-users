@@ -2,8 +2,8 @@
 
 namespace barrelstrength\sproutreportsusers\integrations\sproutreports\datasources;
 
-use barrelstrength\sproutbase\app\reports\base\DataSource;
-use barrelstrength\sproutbase\app\reports\elements\Report;
+use barrelstrength\sproutbasereports\base\DataSource;
+use barrelstrength\sproutbasereports\elements\Report;
 use Craft;
 use craft\db\Query;
 
@@ -12,7 +12,7 @@ class Users extends DataSource
     /**
      * @return string
      */
-    public function getName()
+    public function getName(): string
     {
         return Craft::t('sprout-reports-users', 'Users');
     }
@@ -20,7 +20,7 @@ class Users extends DataSource
     /**
      * @return string
      */
-    public function getDescription()
+    public function getDescription(): string
     {
         return Craft::t('sprout-reports-users', 'Create reports about your users and user groups.');
     }
@@ -31,7 +31,7 @@ class Users extends DataSource
      *
      * @return array
      */
-    public function getResults(Report $report, array $settings = [])
+    public function getResults(Report $report, array $settings = []): array
     {
         // First, use dynamic options, fallback to report options
         if (!count($settings)) {
@@ -165,7 +165,7 @@ class Users extends DataSource
      *
      * @return bool
      */
-    public function validateSettings(array $settings = [], array &$errors)
+    public function validateSettings(array $settings = [], array &$errors = []): bool
     {
         if (empty($settings['userGroups'])) {
             $errors['userGroups'][] = Craft::t('sprout-reports-users', 'Select at least one User Group.');
