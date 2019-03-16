@@ -1,5 +1,15 @@
 # Users Data Source for Sprout Reports Changelog
 
+## 1.0.8 - 2019-03-15
+
+### Changed
+- Updated barrelstrength/sprout-reports requirement to v1.1.2
+
+### Fixed
+- Updated Return Type hints to match base Data Source class ([#45][#45reports])
+
+[#45reports]: https://github.com/barrelstrength/craft-sprout-reports/issues/45
+
 ## 1.0.6 - 2018-08-01
 
 ## Changed
