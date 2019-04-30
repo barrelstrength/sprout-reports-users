@@ -35,7 +35,6 @@ class SproutReportsUsers extends Plugin
             if ($isCraftPro == true) {
                 $event->types[] = Users::class;
             }
-
         });
     }
 }
