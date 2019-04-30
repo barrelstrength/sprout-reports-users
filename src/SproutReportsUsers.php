@@ -28,7 +28,7 @@ class SproutReportsUsers extends Plugin
     {
         parent::init();
 
-        Event::on(DataSources::class, DataSources::EVENT_REGISTER_DATA_SOURCES, function(RegisterComponentTypesEvent $event) {
+        Event::on(DataSources::class, DataSources::EVENT_REGISTER_DATA_SOURCES, static function(RegisterComponentTypesEvent $event) {
 
             $isCraftPro = (Craft::$app->getEdition() == Craft::Pro);
 

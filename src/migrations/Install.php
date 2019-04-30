@@ -5,6 +5,7 @@ namespace barrelstrength\sproutreportsusers\migrations;
 use craft\db\Migration;
 use craft\db\Query;
 use barrelstrength\sproutbasereports\migrations\m180307_042132_craft3_schema_changes as SproutReportsCraft2toCraft3Migration;
+use yii\base\NotSupportedException;
 
 /**
  * Install migration.
@@ -13,9 +14,9 @@ class Install extends Migration
 {
     /**
      * @return bool
-     * @throws \yii\base\NotSupportedException
+     * @throws NotSupportedException
      */
-    public function safeUp()
+    public function safeUp(): bool
     {
         // Ensure our Sprout Reports migration has been run in Sprout Base
         $migration = new SproutReportsCraft2toCraft3Migration();
