@@ -1,5 +1,10 @@
 # Users Data Source for Sprout Reports Changelog
 
+## 1.0.9 - 2019-04-30
+
+## Changed
+- Updated icon
+
 ## 1.0.8 - 2019-03-15
 
 ### Changed
