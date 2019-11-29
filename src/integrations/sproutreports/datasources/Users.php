@@ -40,8 +40,8 @@ class Users extends DataSource
             $settings = $report->getSettings();
         }
 
-        $userGroupIds = $settings['userGroups'] ?: false;
-        $displayUserGroupColumns = $settings['displayUserGroupColumns'] ?: false;
+        $userGroupIds = $settings['userGroups'] ?? false;
+        $displayUserGroupColumns = $settings['displayUserGroupColumns'] ?? false;
 
         $includeAdmins = false;
 
