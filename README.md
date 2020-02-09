@@ -1,4 +1,6 @@
-:warning: This plugin's features are now available in [Sprout Reports](https://plugins.craftcms.com/sprout-reports) and this plugin is no longer maintained.
+:warning: **This plugin's features are now available in [Sprout Reports](https://plugins.craftcms.com/sprout-reports) and this plugin is no longer maintained.**
+
+----
 
 # Users Data Source for Sprout Reports
 
