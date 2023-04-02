@@ -1,5 +1,10 @@
 # Users Data Source for Sprout Reports Changelog
 
+## 1.0.10 - 2023-04-02
+
+## Changed
+- Added abandoned info and recommended Sprout Data Studio as an alternative.
+
 ## 1.0.9 - 2019-04-30
 
 ## Changed
