@@ -1,4 +1,6 @@
-:warning: **This plugin's features are now available in [Sprout Reports](https://plugins.craftcms.com/sprout-reports) and this plugin is no longer maintained.**
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+:warning: **This plugin's features are now available in [Sprout Data Studio](https://plugins.craftcms.com/sprout-data-studio) and this plugin is no longer maintained.**
 
 ----
 
