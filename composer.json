@@ -3,6 +3,7 @@
     "description": "A collection of User-related Data Sources for Sprout Reports",
     "version": "1.0.9",
     "type": "craft-plugin",
+    "abandoned": "barrelstrength/sprout-data-studio",
     "keywords": [
         "craft",
         "cms",
