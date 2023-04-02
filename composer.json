@@ -1,7 +1,7 @@
 {
     "name": "barrelstrength/sprout-reports-users",
     "description": "A collection of User-related Data Sources for Sprout Reports",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "type": "craft-plugin",
     "abandoned": "barrelstrength/sprout-data-studio",
     "keywords": [
